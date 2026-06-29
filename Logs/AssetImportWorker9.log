@@ -1,0 +1,1686 @@
+[UnityConnectServicesConfig] Local config successfully read: "/usr/share/unity3d/config/services-config.json"
+[UnityConnectServicesConfig] Service configuration:
+    "servicesConfigBaseUrl": "",
+    "disableServicesWindow": false,
+    "disableUserLogin": false,
+    "entitlementCacheTimeoutInSeconds": 60,
+    "clientConnectTimeoutSec": 60,
+    "clientHandshakeTimeoutSec": 30,
+    "clientResolveEntitlementsTimeoutSec": 30,
+    "clientUpdateLicenseTimeoutSec": 30,
+    "licensingServiceBaseUrl": "",
+    "enableProxyAutoconfig": "false"
+
+Unity Editor version:    6000.3.8f1 (1c7db571dde0)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Sat, 27 Jun 2026 16:15:10 +0000
+Kernel version:          7.0.14-arch1-1
+Architecture:            x86_64
+Window Protocol:         Wayland (XWayland)
+Available memory:        15909 MB
+Date:                    2026-06-29T00:49:45Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-headmonitor" at "2026-06-29T00:49:45.220032Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              454d5ec265314f6e8a6ac83b89527909
+  Correlation Id:          5454f4f1c479e21f7c74b8d8df16ed3c
+  External correlation Id: 245382902960429646
+  Machine Id:              iO/9oLLe/zxw8/BgwHga1WYpxa4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-headmonitor" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-headmonitor-notifications" at "2026-06-29T00:49:45.221422Z"
+[Licensing::Module] Licensing Background thread has ended after 0.00s
+Selected window backend: (null) 
+Desktop is 3440 x 1440 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+/home/headmonitor/Documents/Development Projects/RocketLander
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+40845
+-licensingIpc
+LicenseClient-headmonitor
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: /home/headmonitor/Documents/Development Projects/RocketLander
+/home/headmonitor/Documents/Development Projects/RocketLander
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [139776577105088]  Target information:
+
+Player connection [139776577105088]  * "[IP] 192.168.1.122 [Port] 0 [Flags] 2 [Guid] 280423508 [EditorId] 280423508 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.122) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [139776577105088]  * "[IP] 100.99.143.28 [Port] 0 [Flags] 2 [Guid] 280423508 [EditorId] 280423508 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.122) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [139776577105088]  * "[IP] 172.16.144.1 [Port] 0 [Flags] 2 [Guid] 280423508 [EditorId] 280423508 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.122) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [139776577105088]  * "[IP] 172.16.18.1 [Port] 0 [Flags] 2 [Guid] 280423508 [EditorId] 280423508 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.122) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [139776577105088] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [139776577105088] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+[Subsystems] Discovering subsystems at path /home/headmonitor/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/headmonitor/Documents/Development Projects/RocketLander/Assets
+kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
+Renderer: AMD Radeon RX 7600 XT (radeonsi, navi33, ACO, DRM 3.64, 7.0.14-arch1-1)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 26.1.3-arch1.2
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_cla
+mp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_A
+RB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync 
+GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_obj
+ect GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_mesh_shader GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rg
+tc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control G
+L_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_NV_timeline_semaphore GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1914194368
+Initialize mono
+Mono path[0] = '/home/headmonitor/Unity/Hub/Editor/6000.3.8f1/Editor/Data/Managed'
+Mono path[1] = '/home/headmonitor/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/headmonitor/Unity/Hub/Editor/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/headmonitor/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/headmonitor/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /home/headmonitor/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-EFZV-33J2-49Q4-GCC5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6872510643042-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: /home/headmonitor/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: /home/headmonitor/Unity/Hub/Editor/6000.3.8f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002891 seconds.
+- Loaded All Assemblies, in  0.378 seconds
+Native extension for LinuxStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.474 seconds
+Domain Reload Profiling: 852ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (80ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (172ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (474ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (421ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-EFZV-33J2-49Q4-GCC5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 6872510643042-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.773 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.824 seconds
+Domain Reload Profiling: 1594ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (268ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (323ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (213ms)
+			BuildScriptInfoCaches (78ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (825ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (675ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (360ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+AutoLocale: current locale expects 'C' but got 'en_US.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6875 unused Assets / (5.7 MB). Loaded Objects now: 7708.
+Memory consumption went from 140.8 MB to 135.1 MB.
+Total: 15.516684 ms (FindLiveObjects: 0.824760 ms CreateObjectMapping: 0.491700 ms MarkObjects: 9.590203 ms  DeleteObjects: 4.608881 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 32212.885152 seconds.
+  path: Assets/UI/Input/keyboard_arrow_down_outline.png
+  artifactKey: Guid(fd32d0a369e0a775182bb1b5a8aa2010) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrow_down_outline.png using Guid(fd32d0a369e0a775182bb1b5a8aa2010) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef440445a419a2b6d5cf89c82b226234') in 0.140874897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.598042 seconds.
+  path: Assets/UI/Input/keyboard_0_outline.png
+  artifactKey: Guid(653d5c935d069e966906d395d22bf80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_0_outline.png using Guid(653d5c935d069e966906d395d22bf80a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c72840c3759da9e0197a3576abada0b') in 0.067948268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI/Input/keyboard_8.png
+  artifactKey: Guid(88fa2ed4f60501f53a3692622f8f01dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_8.png using Guid(88fa2ed4f60501f53a3692622f8f01dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '602e084ca07e8645c5f752a369b99ac5') in 0.006871972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI/Input/keyboard_colon.png
+  artifactKey: Guid(0df9f2cf6f59cb94dac1872b225f2e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_colon.png using Guid(0df9f2cf6f59cb94dac1872b225f2e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a16daa45adb1c81ed692faa8f23315e4') in 0.006590721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Input/keyboard_arrow_right 1.png
+  artifactKey: Guid(ceb303d270cd8a9aca458683fb00b6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_arrow_right 1.png using Guid(ceb303d270cd8a9aca458683fb00b6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65db726df1214321eba9ac4187636e1a') in 0.006836742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_3_outline.png
+  artifactKey: Guid(de49a27065a70f67a994b8bddcac7b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_3_outline.png using Guid(de49a27065a70f67a994b8bddcac7b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fea66632ca386173c431439000a8b72') in 0.009334822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_any.png
+  artifactKey: Guid(c2de062e7718b91c3bc48e7d4ff329bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_any.png using Guid(c2de062e7718b91c3bc48e7d4ff329bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a12c7530faeca0d36365157b91b30476') in 0.007499532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Input/keyboard_bracket_close.png
+  artifactKey: Guid(2022b882a73b67b4196d8d0e38ddcbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_bracket_close.png using Guid(2022b882a73b67b4196d8d0e38ddcbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '718988a5a38675fce1d47c530d79ce15') in 0.006873702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_bracket_greater_outline.png
+  artifactKey: Guid(5c58a55b54d1122d38d1d325847ba408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_bracket_greater_outline.png using Guid(5c58a55b54d1122d38d1d325847ba408) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0ca0cffffd8986c7c80fe7eefbe5ad1') in 0.006977661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_arrows_horizontal.png
+  artifactKey: Guid(70b8e54a0bda96bd8bb28b48c20cbba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_arrows_horizontal.png using Guid(70b8e54a0bda96bd8bb28b48c20cbba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f58531be1a242f20b3d92fb4efbd55e3') in 0.010793183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI/Input/keyboard_arrows_left_outline.png
+  artifactKey: Guid(6fa2d69e856d4c70c80a0b8cf0695ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_arrows_left_outline.png using Guid(6fa2d69e856d4c70c80a0b8cf0695ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77bb8b0cf70db756e2e2015e85aa7d84') in 0.010102782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI/Input/keyboard_4_outline.png
+  artifactKey: Guid(ac0fbf47fe80b23d6b5cba7f656b76cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_4_outline.png using Guid(ac0fbf47fe80b23d6b5cba7f656b76cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '916813f7c65ec66546d794ce9c5b69c2') in 0.007327661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Input/keyboard_arrows_vertical.png
+  artifactKey: Guid(b12d01ad180fc954f8784e016adc8a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_arrows_vertical.png using Guid(b12d01ad180fc954f8784e016adc8a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '169e2206064ac34aafc49f191afacf15') in 0.010681973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Input/keyboard_9.png
+  artifactKey: Guid(752be2e413481f7cdb6f6e9ca7a62106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_9.png using Guid(752be2e413481f7cdb6f6e9ca7a62106) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceea7ec901cebae65f3a70cbab1af82c') in 0.005915101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_5_outline.png
+  artifactKey: Guid(6a1a5a861c64a870aa16e1eb92f86106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_5_outline.png using Guid(6a1a5a861c64a870aa16e1eb92f86106) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d6223b338d14f94d9a4bba088d5755') in 0.007255382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_arrows_down.png
+  artifactKey: Guid(ee8fda603d40915ab90d479df460b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_arrows_down.png using Guid(ee8fda603d40915ab90d479df460b49a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89430754e05e0573144eec047cbe0bac') in 0.009368223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_7.png
+  artifactKey: Guid(a87717ec460ad6295845c7c25b27b0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_7.png using Guid(a87717ec460ad6295845c7c25b27b0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d171aa5348d2ede8ffdd3d7ada30f4f') in 0.005966102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_5.png
+  artifactKey: Guid(0b471b759d2665cd09a89757f675d64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_5.png using Guid(0b471b759d2665cd09a89757f675d64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a9a5ce8d2016c3e2f08d7f10f388f5f') in 0.005682491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI/Input/keyboard_delete.png
+  artifactKey: Guid(a689d754c9931be2d8bb55df7d42befd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_delete.png using Guid(a689d754c9931be2d8bb55df7d42befd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acaf56987fdd399e7a37fcb018140f20') in 0.006218472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI/Input/keyboard_capslock_outline.png
+  artifactKey: Guid(d61de7f752faed8b7a0ed44f10474a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_capslock_outline.png using Guid(d61de7f752faed8b7a0ed44f10474a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '322b41c4cff3ce7dd414fa98cce74d92') in 0.005713042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_bracket_open.png
+  artifactKey: Guid(60cda341a537fc6a6b6b40824d073554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_bracket_open.png using Guid(60cda341a537fc6a6b6b40824d073554) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfc7e9c735c45afa2b59ab04a4a90898') in 0.005840991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_arrows_down_outline.png
+  artifactKey: Guid(001f840c64a4a1da6b3a192d59eb9132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_arrows_down_outline.png using Guid(001f840c64a4a1da6b3a192d59eb9132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ec902a896a68c7cb123e72544f05f41') in 0.009721582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Input/keyboard_d_outline.png
+  artifactKey: Guid(811b409a756b516c7b802734c2c7d79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_d_outline.png using Guid(811b409a756b516c7b802734c2c7d79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bead4b4bafcc2f9369eae3c88259f43') in 0.005897962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_backspace_icon_alternative.png
+  artifactKey: Guid(d7d5f763b29499071af7e265aed62b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_backspace_icon_alternative.png using Guid(d7d5f763b29499071af7e265aed62b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a31de62f24045552be4edc237aa229aa') in 0.006120562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_alt.png
+  artifactKey: Guid(dbda7da073ca7ec29928d9f158b27cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_alt.png using Guid(dbda7da073ca7ec29928d9f158b27cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcf8f183c016fe3e18e82e6dc3666a6b') in 0.005725041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_c_outline.png
+  artifactKey: Guid(f35da0751a9eb02d79ffd144b530b66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_c_outline.png using Guid(f35da0751a9eb02d79ffd144b530b66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c0e123b0a2dbd5785d6cd3cad7df61b') in 0.006627972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_caret_outline.png
+  artifactKey: Guid(9ae1745e093bab063972502d70f70412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_caret_outline.png using Guid(9ae1745e093bab063972502d70f70412) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d0ea97b322f0f36307cf8692b727010') in 0.005414302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Input/keyboard_arrow_left_outline 1.png
+  artifactKey: Guid(cd2cb0883b6692fc29c53bb0d6b1bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_arrow_left_outline 1.png using Guid(cd2cb0883b6692fc29c53bb0d6b1bfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ad00b582000a9ad5e6fc4511cc1a313') in 0.005539862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UI/Input/keyboard_backspace_outline.png
+  artifactKey: Guid(848dcdcc3621d0b0ca90a4bf584afb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_backspace_outline.png using Guid(848dcdcc3621d0b0ca90a4bf584afb20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83137986b46c4339df4dec9f7a1a60b4') in 0.006502542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_3.png
+  artifactKey: Guid(f4e6e326b1d934d69b32fc4da6cd7f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_3.png using Guid(f4e6e326b1d934d69b32fc4da6cd7f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd71f246e070085b521e4095a07547103') in 0.006567391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_backspace_icon_alternative_outline.png
+  artifactKey: Guid(4505aef2394908595b42070bce2ddd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_backspace_icon_alternative_outline.png using Guid(4505aef2394908595b42070bce2ddd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de9ad0d57ab366814e96b61768abab54') in 0.007864122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_backspace_icon_outline.png
+  artifactKey: Guid(35258cdb57d6d7c2385bd1d1ebe49733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_backspace_icon_outline.png using Guid(35258cdb57d6d7c2385bd1d1ebe49733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdfffc21adaf444617379f8b13daa810') in 0.007520392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_backspace_icon_outline.png
+  artifactKey: Guid(35258cdb57d6d7c2385bd1d1ebe49733) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_backspace_icon_outline.png using Guid(35258cdb57d6d7c2385bd1d1ebe49733) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0405ac8ce2fda152b02855c712e0a3b') in 0.006470372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_g_outline.png
+  artifactKey: Guid(51b6e8625a2be393ab91bb12c8f53335) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_g_outline.png using Guid(51b6e8625a2be393ab91bb12c8f53335) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50ae2429ccd6d2ade6844fc4fa316a32') in 0.009378653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_question.png
+  artifactKey: Guid(e4dd35e7283f7b166ae3e370747398ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_question.png using Guid(e4dd35e7283f7b166ae3e370747398ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c82efba26fb61eca28f13991c2882cc') in 0.011423343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI/Input/keyboard_1_outline.png
+  artifactKey: Guid(fd84cd173c8d941bba5d56c8994e9427) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_1_outline.png using Guid(fd84cd173c8d941bba5d56c8994e9427) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31b9ec94446d8cdb42ba39d730608460') in 0.006122482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UI/Input/keyboard_3.png
+  artifactKey: Guid(f4e6e326b1d934d69b32fc4da6cd7f69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_3.png using Guid(f4e6e326b1d934d69b32fc4da6cd7f69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '221baeb7bff29dc6ae6a2ed173680abc') in 0.006347282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_exclamation.png
+  artifactKey: Guid(07c91d8b2bb1cbbbb87ff8867da877b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_exclamation.png using Guid(07c91d8b2bb1cbbbb87ff8867da877b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f26357d289512e6c43f3a8797720f9a') in 0.006896902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_w.png
+  artifactKey: Guid(c4d6032629943a36799338688099bb51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_w.png using Guid(c4d6032629943a36799338688099bb51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59ef8bcbb6d43de6a38a0a7be777be1a') in 0.008599882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_f7_outline.png
+  artifactKey: Guid(b80b3bf4116cad20ba8dcdbbd8cf64f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_f7_outline.png using Guid(b80b3bf4116cad20ba8dcdbbd8cf64f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e2c1761c39f73abe0c39c957ec6c8af') in 0.006724802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_arrows_right_outline.png
+  artifactKey: Guid(de1d20ded56d44d88a3b496ecfd9d59e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrows_right_outline.png using Guid(de1d20ded56d44d88a3b496ecfd9d59e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16628f6d9b0b39f7365ddaad1bea44a3') in 0.008849512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_9.png
+  artifactKey: Guid(752be2e413481f7cdb6f6e9ca7a62106) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_9.png using Guid(752be2e413481f7cdb6f6e9ca7a62106) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '803fb786f39499e365373c33388c2c4d') in 0.005793892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI/Input/keyboard_f6_outline.png
+  artifactKey: Guid(16d7435b59abe158898ac735d739e44c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_f6_outline.png using Guid(16d7435b59abe158898ac735d739e44c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '874af0f81e598ff17f351ff20910c1e2') in 0.008551382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/mouse_scroll_vertical.png
+  artifactKey: Guid(27941a9ac8af78a038395ae9977c2db2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/mouse_scroll_vertical.png using Guid(27941a9ac8af78a038395ae9977c2db2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c11a380c10347b9198b4159772ed5c26') in 0.009453253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI/Input/keyboard_3_outline.png
+  artifactKey: Guid(de49a27065a70f67a994b8bddcac7b3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_3_outline.png using Guid(de49a27065a70f67a994b8bddcac7b3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04a5156d720364b3cbed70d982a2eb1c') in 0.006106752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UI/Input/keyboard_shift_icon_outline.png
+  artifactKey: Guid(7e9884c511bc30bcc9908279cb7b302a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_shift_icon_outline.png using Guid(7e9884c511bc30bcc9908279cb7b302a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '52c15d64ba5e8194033fc6637272fd0d') in 0.006782942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Input/keyboard_slash_forward_outline.png
+  artifactKey: Guid(80f308db953d97764a67fcbc500f88e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_slash_forward_outline.png using Guid(80f308db953d97764a67fcbc500f88e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c71ac46d97f4a2a333411962e130364f') in 0.009878912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/mouse_side_outline.png
+  artifactKey: Guid(9fa1abc688d5021028bb4e9bd5fa7119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/mouse_side_outline.png using Guid(9fa1abc688d5021028bb4e9bd5fa7119) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad63a60228d1ca40235b21f3b8577f35') in 0.009718722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/mouse_scroll_down.png
+  artifactKey: Guid(57628d6aef206a555baac1d225c1f775) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/mouse_scroll_down.png using Guid(57628d6aef206a555baac1d225c1f775) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c521c0360d27bf2225fbcbeda8272dd8') in 0.010162852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_n_outline.png
+  artifactKey: Guid(08f8a3a767324e1ffabc376a08fb5546) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_n_outline.png using Guid(08f8a3a767324e1ffabc376a08fb5546) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd34a97f3267f61e38eb0339ee99860f7') in 0.009577182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_arrow_right 1.png
+  artifactKey: Guid(ceb303d270cd8a9aca458683fb00b6b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrow_right 1.png using Guid(ceb303d270cd8a9aca458683fb00b6b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db771f16eae48be2f30854b11f48bd57') in 0.006386122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_z.png
+  artifactKey: Guid(2281c60f3c2abebc399afa17b27c8ae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_z.png using Guid(2281c60f3c2abebc399afa17b27c8ae1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ba05856e14e0b6959dffd6108e9beb2') in 0.007646892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI/Input/keyboard_quote_outline.png
+  artifactKey: Guid(c5e708eea6a77482994134abd20e5890) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_quote_outline.png using Guid(c5e708eea6a77482994134abd20e5890) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '677d3747e0f36f04d0d5c35cecffd687') in 0.007076942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI/Input/keyboard_bracket_less_outline.png
+  artifactKey: Guid(99ac4be4132665101ac94aaab11223cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_bracket_less_outline.png using Guid(99ac4be4132665101ac94aaab11223cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '498cff2cb039357bd6cb1b6022657325') in 0.006661572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_bracket_open.png
+  artifactKey: Guid(60cda341a537fc6a6b6b40824d073554) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_bracket_open.png using Guid(60cda341a537fc6a6b6b40824d073554) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf05bc14da9b4759de4457bdc5847a75') in 0.009585223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_arrows_vertical.png
+  artifactKey: Guid(b12d01ad180fc954f8784e016adc8a26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrows_vertical.png using Guid(b12d01ad180fc954f8784e016adc8a26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '934bf745768ad4b1720f529161ac34c7') in 0.010282322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_o.png
+  artifactKey: Guid(d1293821d26a82e72ad156f0e211e693) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_o.png using Guid(d1293821d26a82e72ad156f0e211e693) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ec39ca655c7035fb310abb879f23e1c') in 0.008249493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_arrow_right_outline 1.png
+  artifactKey: Guid(567b827b36d0f885aaff8322aed65116) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrow_right_outline 1.png using Guid(567b827b36d0f885aaff8322aed65116) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9e0c19754d13d193a6cad64bddb4235') in 0.008206832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/mouse_scroll_up.png
+  artifactKey: Guid(fd41101d2720d6e6aa9c56cd517dcdfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/mouse_scroll_up.png using Guid(fd41101d2720d6e6aa9c56cd517dcdfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '518decb7cfc53cf3bac8692c577e5f68') in 0.011626503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_semicolon_outline.png
+  artifactKey: Guid(732278a3cb5d7fee59778722e3017d11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_semicolon_outline.png using Guid(732278a3cb5d7fee59778722e3017d11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '235e7688252d0033d06143adfb01f210') in 0.007079041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_f2.png
+  artifactKey: Guid(400eb8e30dbed34f7bc8351f93895e1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_f2.png using Guid(400eb8e30dbed34f7bc8351f93895e1f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a0c12efd3be9dfd63f8f2bb681b5bc1') in 0.007955462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI/Input/keyboard_4_outline.png
+  artifactKey: Guid(ac0fbf47fe80b23d6b5cba7f656b76cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_4_outline.png using Guid(ac0fbf47fe80b23d6b5cba7f656b76cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8ce8785e0c6acc811a1eedcaee82b19') in 0.005727852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_f8.png
+  artifactKey: Guid(60033ad4ded9d9995b719d4c77933dc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_f8.png using Guid(60033ad4ded9d9995b719d4c77933dc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b7048567333b7da9a45a8874f0a9919e') in 0.009633952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/mouse_scroll.png
+  artifactKey: Guid(3b9e7c5ade5d225ef98900c7e2ad8cc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/mouse_scroll.png using Guid(3b9e7c5ade5d225ef98900c7e2ad8cc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62b81775bf396cd4a49745f8be19625d') in 0.009115703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Input/keyboard_b.png
+  artifactKey: Guid(cba4b5484a2ae07a2ab33fed535f07d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_b.png using Guid(cba4b5484a2ae07a2ab33fed535f07d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22b39f8fccd2a75130d332070e7c9dfb') in 0.006045352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_ctrl_outline.png
+  artifactKey: Guid(869b83246b043d3c0ae9e76ea3845224) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_ctrl_outline.png using Guid(869b83246b043d3c0ae9e76ea3845224) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be66eadbc171dfd8fa122a3eb6b3d250') in 0.007385002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_caret.png
+  artifactKey: Guid(1e228d858590235118d97ee80e4f11c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_caret.png using Guid(1e228d858590235118d97ee80e4f11c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62f7bdb65ab0067c2efb2b673fbf46c3') in 0.008822332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_comma_outline.png
+  artifactKey: Guid(9303abfcb8a2a99a69f9e853772a9490) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_comma_outline.png using Guid(9303abfcb8a2a99a69f9e853772a9490) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa3d4cbf17e07c9bae0765a742b23d4d') in 0.006221352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/Input/keyboard_apostrophe.png
+  artifactKey: Guid(f696a571c13d74c86892dd0596a9019d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_apostrophe.png using Guid(f696a571c13d74c86892dd0596a9019d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f9ba4b9886a465da474718c4116025d') in 0.006443241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI/Input/keyboard_tab_icon_alternative_outline.png
+  artifactKey: Guid(73f8837cc25a2dd999bb89b4a404392d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_tab_icon_alternative_outline.png using Guid(73f8837cc25a2dd999bb89b4a404392d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1330b602dcda976431d38e0ccb60b3b3') in 0.009094043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Input/keyboard_pause_break_outline.png
+  artifactKey: Guid(a01b7bd0852e28f5193f967b0dc44734) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_pause_break_outline.png using Guid(a01b7bd0852e28f5193f967b0dc44734) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc9ec44b6e115f20f8877c9728490034') in 0.008858972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_numpad_enter.png
+  artifactKey: Guid(6e48dd6057ee83921bbc96a6941e5685) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_numpad_enter.png using Guid(6e48dd6057ee83921bbc96a6941e5685) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e477d448e5c7812566767ee7ce2ae24') in 0.006686802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_backspace_outline.png
+  artifactKey: Guid(848dcdcc3621d0b0ca90a4bf584afb20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_backspace_outline.png using Guid(848dcdcc3621d0b0ca90a4bf584afb20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af365152117c7e3b8d27a3c744178523') in 0.006254231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Input/keyboard_t_outline.png
+  artifactKey: Guid(a46d8b8e5c367904c8532a40bb90c922) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_t_outline.png using Guid(a46d8b8e5c367904c8532a40bb90c922) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1a750b95e387932d3b66b48432b615a') in 0.007511792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_plus.png
+  artifactKey: Guid(7e9f328a90bd6299e98029c7d98f6722) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_plus.png using Guid(7e9f328a90bd6299e98029c7d98f6722) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d492c9cc96fcfe201805371109dad99') in 0.006741862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_function_outline.png
+  artifactKey: Guid(ff02b024a6fb8b0f5886b8833d19e9ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_function_outline.png using Guid(ff02b024a6fb8b0f5886b8833d19e9ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2cf4db38c4911f218fbb6484c17a63c') in 0.011871163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/Input/keyboard_arrow_up_outline 1.png
+  artifactKey: Guid(75e4f0ca22449fb9cbd7a2a5871e963d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrow_up_outline 1.png using Guid(75e4f0ca22449fb9cbd7a2a5871e963d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb5d09b748b686ceb77ed4ce20795ecc') in 0.011624303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UI/Input/keyboard_arrows_down_outline.png
+  artifactKey: Guid(001f840c64a4a1da6b3a192d59eb9132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrows_down_outline.png using Guid(001f840c64a4a1da6b3a192d59eb9132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c260fe48128db56f4b93182e31cc61c5') in 0.008850953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Input/keyboard_6_outline.png
+  artifactKey: Guid(a83a4211eaef5b3f5a162adacb3ad7af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_6_outline.png using Guid(a83a4211eaef5b3f5a162adacb3ad7af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ebc7c5cdf928a5e2aa1a7de85a823b5') in 0.006531692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_v_outline.png
+  artifactKey: Guid(e381cfc922aa3cc1889fb0ab45bb17e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_v_outline.png using Guid(e381cfc922aa3cc1889fb0ab45bb17e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b5c78c0d0ad71ba2e4f94c05da45c66') in 0.007739872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_capslock_icon_outline.png
+  artifactKey: Guid(4e7bae7c1be92935e97716749ae09bde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_capslock_icon_outline.png using Guid(4e7bae7c1be92935e97716749ae09bde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '092990b9326e7bad463895ed49815d02') in 0.007907172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_c_outline.png
+  artifactKey: Guid(f35da0751a9eb02d79ffd144b530b66d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_c_outline.png using Guid(f35da0751a9eb02d79ffd144b530b66d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43dd9955df32e31576f1aa9ada31ca53') in 0.006152852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_f10.png
+  artifactKey: Guid(49cb7b5a7d976a3d5b4ccbf658f424f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_f10.png using Guid(49cb7b5a7d976a3d5b4ccbf658f424f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '690601e000e762b448ae1ab300a982b5') in 0.007310362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_space_icon_outline.png
+  artifactKey: Guid(1bdd0b255f85b043383d5b4614d6e092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_space_icon_outline.png using Guid(1bdd0b255f85b043383d5b4614d6e092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '91c78da033424010856618bae06b13f0') in 0.007741162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_printscreen_outline.png
+  artifactKey: Guid(99dd1809fdad81fb985d67c8a8dad006) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_printscreen_outline.png using Guid(99dd1809fdad81fb985d67c8a8dad006) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0f535670c501730483abb48fab65dbcc') in 0.007325552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI/Input/keyboard_e_outline.png
+  artifactKey: Guid(a21c888814946dd8ab9b265023469d93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_e_outline.png using Guid(a21c888814946dd8ab9b265023469d93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cebbc2facb3d0dfb3a9c971a5b0f8f42') in 0.008958502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UI/Input/keyboard_f1_outline.png
+  artifactKey: Guid(c5a043d1578dfb432b28a71d8dc70538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_f1_outline.png using Guid(c5a043d1578dfb432b28a71d8dc70538) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e877c6c6685d62866d6e821f14a5dffd') in 0.006984511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_f4_outline.png
+  artifactKey: Guid(ba0c978247b19ac07a1a4001b65a2f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_f4_outline.png using Guid(ba0c978247b19ac07a1a4001b65a2f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '345bf0102a7073c73f3d80ea303bcffa') in 0.005910482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_i_outline.png
+  artifactKey: Guid(25ce25fafe0de56a69a69f708ca7729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_i_outline.png using Guid(25ce25fafe0de56a69a69f708ca7729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8213f3f08bebf8cfab7d95e4e79c57d5') in 0.005941152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_insert_outline.png
+  artifactKey: Guid(79a8d0706996d248aa150a0c9d4c068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_insert_outline.png using Guid(79a8d0706996d248aa150a0c9d4c068f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca2bc2a6a8a7310bd2c2660f3b8e486c') in 0.006112502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_end_outline.png
+  artifactKey: Guid(38399ce6aa99b1b0d9f9660bdb59d09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_end_outline.png using Guid(38399ce6aa99b1b0d9f9660bdb59d09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2107250d76426fd20005fd9043827aa1') in 0.006957222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_minus_outline.png
+  artifactKey: Guid(81c1b01dcb12685c080b24242d2aa38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_minus_outline.png using Guid(81c1b01dcb12685c080b24242d2aa38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fb24edcaab0f5b729d9ec9c372ae084') in 0.004953481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_page_up_outline.png
+  artifactKey: Guid(b5f31fa9e2ceeed43a9b50bdafc5aa6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_page_up_outline.png using Guid(b5f31fa9e2ceeed43a9b50bdafc5aa6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a522e445a33495c2bcb0f9ac8491cf69') in 0.007190922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_g_outline.png
+  artifactKey: Guid(51b6e8625a2be393ab91bb12c8f53335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_g_outline.png using Guid(51b6e8625a2be393ab91bb12c8f53335) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c90c02dd16fdb1d041de74921c3494f') in 0.006659222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/Input/keyboard_backspace.png
+  artifactKey: Guid(c67b24d70b4fa12de8b99e256420ad4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_backspace.png using Guid(c67b24d70b4fa12de8b99e256420ad4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0f0dd0fc6124b217f7a4d97205821a8') in 0.006123512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UI/Input/keyboard_numpad_enter_outline.png
+  artifactKey: Guid(714a572ba6fb0dc5287c4c87a7e0cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_numpad_enter_outline.png using Guid(714a572ba6fb0dc5287c4c87a7e0cdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38e0baf007ac02753e1acc24cc117006') in 0.006806362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_option.png
+  artifactKey: Guid(d40767ecc0da5df42b053a581700f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_option.png using Guid(d40767ecc0da5df42b053a581700f527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c32c34c283bc0abc3c38dd2cf284134d') in 0.005904502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_page_down_outline.png
+  artifactKey: Guid(bb97edf9554946b6f9cbc01ffd55fbcb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_page_down_outline.png using Guid(bb97edf9554946b6f9cbc01ffd55fbcb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8fc10d121ad2f18bc265681c0c566afb') in 0.007022852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_h_outline.png
+  artifactKey: Guid(3392d6e72f6a54f0791475aceb83b01f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_h_outline.png using Guid(3392d6e72f6a54f0791475aceb83b01f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bff1c4e7e5f093a2ffc95b00c2e427a7') in 0.008764182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_m.png
+  artifactKey: Guid(5eaf7886b92929aef9a63316cf01705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_m.png using Guid(5eaf7886b92929aef9a63316cf01705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2fbf9edd76f6084502bb8b762480b243') in 0.005531891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_x_outline.png
+  artifactKey: Guid(a8646e7199230be439728e46e901797b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_x_outline.png using Guid(a8646e7199230be439728e46e901797b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6fe64cf8cac9d5d6a8c3352df3789c2') in 0.007501042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_5_outline.png
+  artifactKey: Guid(6a1a5a861c64a870aa16e1eb92f86106) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_5_outline.png using Guid(6a1a5a861c64a870aa16e1eb92f86106) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '981387cf390c7a6b0ffaa585cde220b2') in 0.006599842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_7_outline.png
+  artifactKey: Guid(97f938e7d4e72118698c60f495588ff2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_7_outline.png using Guid(97f938e7d4e72118698c60f495588ff2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c84ef8a21178e92f7ba65d0f3420beb2') in 0.006703332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/Input/keyboard_return.png
+  artifactKey: Guid(c9057dcde49286c8f9c9b5e8db7f3cbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_return.png using Guid(c9057dcde49286c8f9c9b5e8db7f3cbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6b424a4bc3840fd75e385a92e4e6733') in 0.010542422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/Input/keyboard_home_outline.png
+  artifactKey: Guid(14db2af30b1911cb2b7d372326188642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_home_outline.png using Guid(14db2af30b1911cb2b7d372326188642) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3aa95c842c9ffe7170ff980d78d1a09f') in 0.006685612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_e.png
+  artifactKey: Guid(bad569398b20e457c9d36d93ebaa2d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_e.png using Guid(bad569398b20e457c9d36d93ebaa2d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '557ed805dda601196649c674d25c2d8c') in 0.006191662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_equals_outline.png
+  artifactKey: Guid(aec85b07c7abc25d49d02dd99b93a8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_equals_outline.png using Guid(aec85b07c7abc25d49d02dd99b93a8e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c4eb0f838147d9f47b7c46db1ed9f7f') in 0.005482482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_home.png
+  artifactKey: Guid(d13b836ee1be864cdb55744b385412c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_home.png using Guid(d13b836ee1be864cdb55744b385412c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '246e20b7350b2f3f34e0945cb18f8f4b') in 0.007644782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_scroll_lock_outline.png
+  artifactKey: Guid(040ac1b36260d2d6fbbfe4347a3a91e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_scroll_lock_outline.png using Guid(040ac1b36260d2d6fbbfe4347a3a91e0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc9c47e9f6ffd6df83d5e03a2318b7aa') in 0.008674402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_f.png
+  artifactKey: Guid(0e3c0563076952847b9f2852914b81f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_f.png using Guid(0e3c0563076952847b9f2852914b81f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d7c0211c75ff4cd49d539b704e7235b') in 0.005965871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_exclamation.png
+  artifactKey: Guid(07c91d8b2bb1cbbbb87ff8867da877b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_exclamation.png using Guid(07c91d8b2bb1cbbbb87ff8867da877b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbc526daf7cd8319e794058c1f95d021') in 0.005754551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UI/Input/keyboard_g.png
+  artifactKey: Guid(72c5985d31aeff0e989735389707979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_g.png using Guid(72c5985d31aeff0e989735389707979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76e4d4c28b5fd149ef1b6d0d916cfb03') in 0.006221551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI/Input/keyboard_delete_outline.png
+  artifactKey: Guid(8894cf67213e621d8a5a9f18cd4e2b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_delete_outline.png using Guid(8894cf67213e621d8a5a9f18cd4e2b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9880b7e8173e3abd34b70dba7b84aa1') in 0.007364372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_h.png
+  artifactKey: Guid(c3040b605d177daccb1de5334e7285af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_h.png using Guid(c3040b605d177daccb1de5334e7285af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efdd6706c57c3d12d7e2a30f35c0b2fc') in 0.005474441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_f8.png
+  artifactKey: Guid(60033ad4ded9d9995b719d4c77933dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_f8.png using Guid(60033ad4ded9d9995b719d4c77933dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44bb503ea4c9e139648a795d4667efdd') in 0.005598312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_minus.png
+  artifactKey: Guid(26ebd3d1b3668a7568af19802f875312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_minus.png using Guid(26ebd3d1b3668a7568af19802f875312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9adf3d4969f683788d0fc51a021bde7') in 0.005666382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_f5_outline.png
+  artifactKey: Guid(977aa64240be240f5bc1625f462ebd69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_f5_outline.png using Guid(977aa64240be240f5bc1625f462ebd69) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0feab66aa7446eb19a07d10de9b33ec') in 0.007663502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_shift_icon.png
+  artifactKey: Guid(5b421280ae5c3f90184a551f77a0d4d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_shift_icon.png using Guid(5b421280ae5c3f90184a551f77a0d4d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad7599e6ec995f2f96d2a88017bec14b') in 0.009961563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI/Input/keyboard_f9_outline.png
+  artifactKey: Guid(3211084fb6617d85bae4bac2c71b11dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_f9_outline.png using Guid(3211084fb6617d85bae4bac2c71b11dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c652e02b77899906c14d18a9d4b1dc1') in 0.004773671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI/Input/keyboard_pause_break.png
+  artifactKey: Guid(bf8b02db1ddb98f10a91cc88c2028e5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_pause_break.png using Guid(bf8b02db1ddb98f10a91cc88c2028e5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae912d5d185c8590d8ac7e8434d79f9f') in 0.006487512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_tilde.png
+  artifactKey: Guid(09dd0aa895a9b9aadb4403a64ecf02fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_tilde.png using Guid(09dd0aa895a9b9aadb4403a64ecf02fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c413258976e36d85ac850ad03be39083') in 0.006931021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UI/Input/keyboard_arrow_up 1.png
+  artifactKey: Guid(23d64739a2e80b3b990f2965c1db22c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrow_up 1.png using Guid(23d64739a2e80b3b990f2965c1db22c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b68045fb506150e54e9dd934ee717792') in 0.006251272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/mouse_side.png
+  artifactKey: Guid(fdad365ef973781b9ab6a2a055f65fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/mouse_side.png using Guid(fdad365ef973781b9ab6a2a055f65fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61bcf72705c7623fec8dc6fffcce6be3') in 0.011342593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI/Input/keyboard_s.png
+  artifactKey: Guid(36118dbfb3e60705bb356b7d8bc6267d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_s.png using Guid(36118dbfb3e60705bb356b7d8bc6267d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a5bf53d5a20ed48b5eef0ed023de5bd') in 0.006869522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_capslock_outline.png
+  artifactKey: Guid(d61de7f752faed8b7a0ed44f10474a1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_capslock_outline.png using Guid(d61de7f752faed8b7a0ed44f10474a1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa2954431d077268d4e96d7bd19b422c') in 0.006636682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Input/keyboard_bracket_greater.png
+  artifactKey: Guid(035e79299ba59cd2486aca5e98d49c89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_bracket_greater.png using Guid(035e79299ba59cd2486aca5e98d49c89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87e55e614e988e8848c6779852bfebf4') in 0.005999021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_f6_outline.png
+  artifactKey: Guid(16d7435b59abe158898ac735d739e44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_f6_outline.png using Guid(16d7435b59abe158898ac735d739e44c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26b9a26c7db04f9a1cd3f5c779ca9007') in 0.005270052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_f4.png
+  artifactKey: Guid(03be3ed2afaf32b3c8a63e70ea211fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_f4.png using Guid(03be3ed2afaf32b3c8a63e70ea211fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55359508c431a362230652acc73f91e5') in 0.007153602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Input/keyboard_arrow_left 1.png
+  artifactKey: Guid(93bcdcc7eb0206649b5b5f967b64d8a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrow_left 1.png using Guid(93bcdcc7eb0206649b5b5f967b64d8a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5439acbfea3b254ef5d202afdb0593f') in 0.008863803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Input/keyboard_arrows_left_outline.png
+  artifactKey: Guid(6fa2d69e856d4c70c80a0b8cf0695ce5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrows_left_outline.png using Guid(6fa2d69e856d4c70c80a0b8cf0695ce5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6c1e737569aedae733490b15feda1c5') in 0.008340052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI/Input/keyboard_capslock_icon.png
+  artifactKey: Guid(108ff54e575774fa99cc78a2893ce6cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_capslock_icon.png using Guid(108ff54e575774fa99cc78a2893ce6cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc4d8cdbf155d522e5c16c19fe9a484a') in 0.005723532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_numpad_plus_outline.png
+  artifactKey: Guid(4be628ad1997b07328898f5b010bdbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_numpad_plus_outline.png using Guid(4be628ad1997b07328898f5b010bdbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc136c34d49ce314f722e7beb894accb') in 0.005847831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_bracket_open_outline.png
+  artifactKey: Guid(49e4b478488a3ca5ca01b77570f10798) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_bracket_open_outline.png using Guid(49e4b478488a3ca5ca01b77570f10798) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '994b40892e0892bae23feddbb597d5fb') in 0.006664792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_8_outline.png
+  artifactKey: Guid(73096d59ac93898418b75c523a0c85f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_8_outline.png using Guid(73096d59ac93898418b75c523a0c85f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bca6961e066b4fb769a9cf475043d8fd') in 0.007867942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_arrows_horizontal.png
+  artifactKey: Guid(70b8e54a0bda96bd8bb28b48c20cbba6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_arrows_horizontal.png using Guid(70b8e54a0bda96bd8bb28b48c20cbba6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29c089b1a70fdf4d36897ebf92c2ef62') in 0.008544702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_4.png
+  artifactKey: Guid(aa5a960ab395eb55f8b0ef4dfb252599) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_4.png using Guid(aa5a960ab395eb55f8b0ef4dfb252599) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d91268bb83727cc80eee148ee0294de') in 0.006038432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_y.png
+  artifactKey: Guid(0f2c0629fde0b8d52886c7873f490677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_y.png using Guid(0f2c0629fde0b8d52886c7873f490677) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0585703790d1c878c8d27edce3fa2510') in 0.007725232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_f10_outline.png
+  artifactKey: Guid(5e11907921aa1877bb5559efb8316336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_f10_outline.png using Guid(5e11907921aa1877bb5559efb8316336) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fc7e7c0d9250c1b2ef488e145797af3') in 0.006177531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Input/keyboard_slash_back.png
+  artifactKey: Guid(8d09bcd581e1372a090873619f875321) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_slash_back.png using Guid(8d09bcd581e1372a090873619f875321) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '428e50caac597b78a5195d35144116ef') in 0.007933073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI/Input/keyboard_r.png
+  artifactKey: Guid(fdd0a14ec1fad97faae8cd554388e737) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_r.png using Guid(fdd0a14ec1fad97faae8cd554388e737) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bcf17fe0aa551d673f97b2c90c9b457d') in 0.007051861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_f1.png
+  artifactKey: Guid(9d937efb34ea51bd799ba69efd068132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_f1.png using Guid(9d937efb34ea51bd799ba69efd068132) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ba4cc427418615cf87c425d3bffa2c9') in 0.005888372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI/Input/keyboard_numlock.png
+  artifactKey: Guid(50a7dbac7bf029a19b19482269384ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_numlock.png using Guid(50a7dbac7bf029a19b19482269384ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25bfa132b3ef086893e77290f1e214d0') in 0.004907031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Input/keyboard_c.png
+  artifactKey: Guid(35fd2945dcad2531bb4512c9f98e0a59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/UI/Input/keyboard_c.png using Guid(35fd2945dcad2531bb4512c9f98e0a59) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79fcd3f9197cd4ac9d0e3dc5873855c5') in 0.006017752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.665247 seconds.
+  path: Assets/UI/Input/keyboard_p.png
+  artifactKey: Guid(1890482461f87dde1a2fe1e9f5afa44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_p.png using Guid(1890482461f87dde1a2fe1e9f5afa44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e22c3be4d320552f9718e17801fc7208') in 0.005374462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_plus_outline.png
+  artifactKey: Guid(5f1dd259aceac7a33a38246d62b35634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_plus_outline.png using Guid(5f1dd259aceac7a33a38246d62b35634) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c32f96943997b4a6d3883fc0ba05c03c') in 0.005527682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI/Input/keyboard_space_icon.png
+  artifactKey: Guid(249c79700425f4c1493c0f6d054c4dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_space_icon.png using Guid(249c79700425f4c1493c0f6d054c4dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39839d0210d9e22d3b7ccd43c201f973') in 0.005723301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UI/Input/keyboard_q_outline.png
+  artifactKey: Guid(4e73bf8bcda3d267cbecc90835d867f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_q_outline.png using Guid(4e73bf8bcda3d267cbecc90835d867f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0f1e7133fb27fb5c2656eb6560fc9d0') in 0.005761051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/UI/Input/keyboard_z.png
+  artifactKey: Guid(2281c60f3c2abebc399afa17b27c8ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_z.png using Guid(2281c60f3c2abebc399afa17b27c8ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9ddd911121bf5b6ed24fcd3d3976f4e') in 0.006237371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI/Input/keyboard_pause.png
+  artifactKey: Guid(396a2b5a791a70f95bddf3964e1169d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_pause.png using Guid(396a2b5a791a70f95bddf3964e1169d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ac517087f720f45157d5a2e3d01545c') in 0.005048131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_tab_icon_outline.png
+  artifactKey: Guid(81c21d1dbc80229d58428e752afa13f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_tab_icon_outline.png using Guid(81c21d1dbc80229d58428e752afa13f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '593536f2dd5300ed13249a18f8321b94') in 0.007197912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UI/Input/keyboard_shift_icon_outline.png
+  artifactKey: Guid(7e9884c511bc30bcc9908279cb7b302a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_shift_icon_outline.png using Guid(7e9884c511bc30bcc9908279cb7b302a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d60af7a90ce35421de429c295973131') in 0.006472311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/Input/keyboard_page_down.png
+  artifactKey: Guid(aef5ada95a89b88a1bf5f00e8a943b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_page_down.png using Guid(aef5ada95a89b88a1bf5f00e8a943b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12ab1323926c560fdca79ea54542a070') in 0.005887092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_slash_back.png
+  artifactKey: Guid(8d09bcd581e1372a090873619f875321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_slash_back.png using Guid(8d09bcd581e1372a090873619f875321) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1acda4cd47079119dba44a56bc4750d1') in 0.006672922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/Input/keyboard_semicolon_outline.png
+  artifactKey: Guid(732278a3cb5d7fee59778722e3017d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_semicolon_outline.png using Guid(732278a3cb5d7fee59778722e3017d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77b0e5b25f5cbf927deecb1dca60a07b') in 0.006245381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UI/Input/keyboard_x.png
+  artifactKey: Guid(31c15897699c34742bef18527cfa2d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_x.png using Guid(31c15897699c34742bef18527cfa2d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96968cd0c82b6d16ecc6d08754a4257c') in 0.007479391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UI/Input/mouse.png
+  artifactKey: Guid(a79b66966ee3ac08b8ff67b1b1932709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/mouse.png using Guid(a79b66966ee3ac08b8ff67b1b1932709) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f9dbe082d593698e07d2ada46b42c18') in 0.013674004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_w.png
+  artifactKey: Guid(c4d6032629943a36799338688099bb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_w.png using Guid(c4d6032629943a36799338688099bb51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f065ccedc4c17c3b7298bc06893eac98') in 0.007878702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_tilde_outline.png
+  artifactKey: Guid(dc4f0e34ab7efd53098522ddc885d251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_tilde_outline.png using Guid(dc4f0e34ab7efd53098522ddc885d251) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9732e53a33f911307b3d3e3add0c1b7') in 0.005759521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Input/mouse_side_forward_outline.png
+  artifactKey: Guid(8712dedeb556dd684ba3ba1eb7008d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/mouse_side_forward_outline.png using Guid(8712dedeb556dd684ba3ba1eb7008d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd66688a79059d0e6242545e81a053f85') in 0.008736192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/keyboard_tab.png
+  artifactKey: Guid(42188bc0d324ac7fd9503d2ed6910c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_tab.png using Guid(42188bc0d324ac7fd9503d2ed6910c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cbc5e59e2c972fee30be061853bd5dc') in 0.005809671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI/Input/mouse_outline.png
+  artifactKey: Guid(4b1ece396e3c0454d97b186176687242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/mouse_outline.png using Guid(4b1ece396e3c0454d97b186176687242) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91d84b33e59b73b78daf5af4a29fc83a') in 0.007595372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/Input/keyboard_q.png
+  artifactKey: Guid(709defef52a2947889d79adba16f5c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_q.png using Guid(709defef52a2947889d79adba16f5c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b387f508c63a3daa6f562ad6c916c73') in 0.005356081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Input/keyboard_tab_icon_alternative.png
+  artifactKey: Guid(c1959973e7273214e91609550c0649a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_tab_icon_alternative.png using Guid(c1959973e7273214e91609550c0649a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b84c6818cb7e5a27ebf0405b53cba7cb') in 0.006051582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/Input/keyboard_period_outline.png
+  artifactKey: Guid(445e8e639eb4b6b62a18c510455e099d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_period_outline.png using Guid(445e8e639eb4b6b62a18c510455e099d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ecba5693be145a5a9ce48f6bbc73f852') in 0.006089142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/UI/Input/keyboard_underscore_outline.png
+  artifactKey: Guid(179a0b33bea03e65f87c03d1dbcdcb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_underscore_outline.png using Guid(179a0b33bea03e65f87c03d1dbcdcb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a820990caa65740218de0b09390cbe0') in 0.006711671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/mouse_left_outline.png
+  artifactKey: Guid(b5e4b3c7471d7638e9b90c2d07437d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/mouse_left_outline.png using Guid(b5e4b3c7471d7638e9b90c2d07437d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee47d83490c23f2d62a5c8ee73665b98') in 0.005396561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/mouse_side_back_outline.png
+  artifactKey: Guid(25e91fe06809df69d8ad88536b62dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/mouse_side_back_outline.png using Guid(25e91fe06809df69d8ad88536b62dcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '541d460073733903e7171a008d6f788b') in 0.006828832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/UI/Input/mouse_left.png
+  artifactKey: Guid(ba698d36b9beff00aacf71ee046f1fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/mouse_left.png using Guid(ba698d36b9beff00aacf71ee046f1fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80f763eb6a30269d0ffb78311026211f') in 0.008857683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/UI/Input/keyboard_slash_forward.png
+  artifactKey: Guid(e30ce82e93012aac1abb1c1a5358b992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_slash_forward.png using Guid(e30ce82e93012aac1abb1c1a5358b992) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7b6088c9a22ae9ab0c9cb20ac595377') in 0.006020822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UI/Input/keyboard_y_outline.png
+  artifactKey: Guid(dafa383e4f8bb76e184e8dd75802c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_y_outline.png using Guid(dafa383e4f8bb76e184e8dd75802c6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ba73a09255cc6e902a03c34ba2715dc') in 0.006783162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Input/keyboard_slash_back_outline.png
+  artifactKey: Guid(73769731e9830c926ba0d538498561a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_slash_back_outline.png using Guid(73769731e9830c926ba0d538498561a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d24c33a8d747ef814b16ae9d94cae94') in 0.005625022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Input/mouse_horizontal.png
+  artifactKey: Guid(60fe38cce75cf6d1fb9eb41bc64a0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/mouse_horizontal.png using Guid(60fe38cce75cf6d1fb9eb41bc64a0f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfcd166086b49f0fd9077655618a95de') in 0.011316383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Input/keyboard_return_outline.png
+  artifactKey: Guid(9ed06fda043691068b6b6f23401dc56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_return_outline.png using Guid(9ed06fda043691068b6b6f23401dc56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a11f5b5d75cd140a28997519b5c0b28a') in 0.005980741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Input/keyboard_u.png
+  artifactKey: Guid(8708f2150df570b98b67a24594dacbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/keyboard_u.png using Guid(8708f2150df570b98b67a24594dacbb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f6ba7fbebc8df7f6527d4c28effbde4') in 0.007684582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Input/mouse_scroll.png
+  artifactKey: Guid(3b9e7c5ade5d225ef98900c7e2ad8cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Input/mouse_scroll.png using Guid(3b9e7c5ade5d225ef98900c7e2ad8cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c75d16a00bbe64104bd7d507827111f') in 0.012475583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+
+SDL leaked 2 allocations
+Internal: Possible leak. All render target surfaces should be removed from IdMap when destructed using RenderTargetMap::Remove(RenderSurfaceBase* rs).
